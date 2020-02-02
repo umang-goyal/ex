@@ -14,9 +14,9 @@ object OrderedTraitForCompairingPerson extends App {
   val personOne = new Person("Test", 24)
   val personTwo = new Person("Test", 25)
   println(personOne < personTwo)
-  //Output: true
+  
   val anotherPersonOne = new Person("TestAgain", 24)
   val anotherPersonTwo = new Person("Test", 25)
   println(anotherPersonOne < anotherPersonTwo)
-  //Output: false
+  
 }
